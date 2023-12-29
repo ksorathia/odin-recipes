@@ -22,7 +22,7 @@ h3 {
 
 .top-bar {
     border-bottom: 1px solid #e5e5e5;
-    padding: 16px;
+    padding: 24px 16px 16px;
 }
 
 .header,
@@ -39,4 +39,14 @@ h3 {
     margin: 16px auto;
     display: block;
     text-decoration: none;
+}
+
+.recipe-card:hover {
+    background-color: #e5e5e5;
+}
+
+.recipe-header {
+    font-weight: 600;
+    font-size: 17px;
+    color: #212121;
 }
